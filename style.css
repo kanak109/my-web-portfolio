@@ -1,0 +1,18 @@
+body{
+    font-family: 'Varta', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+#name{
+    color: orange;
+}
+
+.section1{
+    width: 40%;
+    margin-left: 7%;
+    float: left;
+}
+.section1 img{
+    width: 100%;
+}
