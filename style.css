@@ -1,5 +1,6 @@
 body{
     font-family: 'Varta', sans-serif;
+    margin: 0px;
 }
 h1{
     font-size: 40px;
@@ -10,9 +11,43 @@ h1{
 
 .section1{
     width: 40%;
-    margin-left: 7%;
+    margin-left: 4%;
+    padding-left: 2%;
     float: left;
 }
 .section1 img{
     width: 100%;
+}
+
+.top-banner{
+    background-repeat: no-repeat;
+    background-image: url("images/top-banner.png");
+    
+
+}
+section{
+    height: 500px;
+    padding-bottom: 120px;
+}
+.hire-button, .resume-button{
+    
+    background-image: linear-gradient(rgb(99, 130, 231), rgb(6, 6, 156));
+    text-decoration: none;
+    color: white;
+    
+    padding: 9px 25px;
+    border-radius: 6px;
+    font-weight: 500;
+
+}
+
+.bottom-banner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right ;
+}
+.experience{
+    font-size: 40px;
+    text-align: center;
+
 }
