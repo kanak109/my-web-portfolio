@@ -51,3 +51,39 @@ section{
     text-align: center;
 
 }
+.experience-box{
+    box-shadow: 9px 9px 35px grey;
+    border-radius: 10px;
+    height: 70%;
+    background-color: whitesmoke;
+ /*   background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;  */
+}
+
+ .experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}                                       
+
+#box1{
+    border-left: 8px  solid ;
+    
+    border-image: linear-gradient(180deg, rgb(85, 2, 2), rgb(240, 93, 93) );
+    border-image-slice: 1;
+}
+
+#box2{
+    border-left: 8px solid  ;
+ 
+    border-image: linear-gradient(180deg, blue, rgb(99, 101, 248) );
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+
+}
