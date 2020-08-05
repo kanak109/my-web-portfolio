@@ -80,10 +80,30 @@ section{
     border-image: linear-gradient(180deg, blue, rgb(99, 101, 248) );
     border-image-slice: 1;
 }
+.last-banner{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    
+}
+
+.final-block{
+    
+    text-align: center;
+    font-style: italic;
+    width: 50%;
+    font-weight: 500;
+    background-color: #ec4c7a;
+    border-radius: 10px;
+    padding: 20px 60px;
+    margin: auto ;
+}
 
 footer p{
     text-align: center;
     font-size: 15px;
     font-weight: 600;
 
+}
+footer{
+    margin:10px;
 }
